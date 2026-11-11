@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794435041621,
+  "lastUpdate": 1794435050996,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -765215,54 +765215,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "kmontrose@microsoft.com",
-            "name": "kevin-montrose",
-            "username": "kevin-montrose"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "fac9eff84b6d0b6133fdb4cecb7c97c2058af830",
-          "message": "Fixes in Vector Set validation (#2276)\n\n* crashing test for gigantic Vector Set creation\n\n* fix by imposing a maximum EF\n\n* failing test for filtering over attributes which are malformed JSON\n\n* fix attribute extraction bug; remove a bunch of dead code that also had similar issues, we can redo it if we need it again\n\n* also limit M to a maximum effective value of 512",
-          "timestamp": "2026-10-21T14:49:28-04:00",
-          "tree_id": "834c4e26e3acb2f03501c20678964b2190d5ad7f",
-          "url": "https://github.com/microsoft/garnet/commit/fac9eff84b6d0b6133fdb4cecb7c97c2058af830"
-        },
-        "date": 1792608916221,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AAD)",
-            "value": 12292.60009765625,
-            "unit": "ns",
-            "range": "± 92.02025966525034"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
-            "value": 12496.46726335798,
-            "unit": "ns",
-            "range": "± 74.81047390240566"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
-            "value": 12529.290444510323,
-            "unit": "ns",
-            "range": "± 96.37070532236781"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
-            "value": 12932.408033098493,
-            "unit": "ns",
-            "range": "± 73.35912772332593"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "badrishc@microsoft.com",
             "name": "Badrish Chandramouli",
             "username": "badrishc"
@@ -767609,6 +767561,54 @@ window.BENCHMARK_DATA = {
             "value": 14491.563618977865,
             "unit": "ns",
             "range": "± 79.1345308552118"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b25c212632be38e44178780368fb7a95443dd27a",
+          "message": "Pipelined transfer and overlapped writes for disk-based replica sync (#2334)",
+          "timestamp": "2026-11-11T14:05:36-08:00",
+          "tree_id": "60b1fa60eb7496296fca83c4af5b3476d5df15d0",
+          "url": "https://github.com/microsoft/garnet/commit/b25c212632be38e44178780368fb7a95443dd27a"
+        },
+        "date": 1794435037240,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AAD)",
+            "value": 18165.729268391926,
+            "unit": "ns",
+            "range": "± 94.02905746419778"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 17674.795735677082,
+            "unit": "ns",
+            "range": "± 140.06491501708"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 18478.421674455916,
+            "unit": "ns",
+            "range": "± 93.94876501957354"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 18155.08056640625,
+            "unit": "ns",
+            "range": "± 160.62706799485284"
           }
         ]
       }
