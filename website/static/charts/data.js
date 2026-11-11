@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794434872134,
+  "lastUpdate": 1794434913724,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -785323,36 +785323,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "96085550+vazois@users.noreply.github.com",
-            "name": "Vasileios Zois",
-            "username": "vazois"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "be6eb17df48b4e49fb09605398e52d429d9faa22",
-          "message": "fix stack overflow in the Garnet server coming from Garnet's glob pattern matching logic (#2261)",
-          "timestamp": "2026-10-21T10:53:46-07:00",
-          "tree_id": "319cdc3181c7d8148abe5e668c354220d6040499",
-          "url": "https://github.com/microsoft/garnet/commit/be6eb17df48b4e49fb09605398e52d429d9faa22"
-        },
-        "date": 1792605491780,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
-            "value": 93.71517385755267,
-            "unit": "ns",
-            "range": "± 0.5796056288411627"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "kmontrose@microsoft.com",
             "name": "kevin-montrose",
             "username": "kevin-montrose"
@@ -786817,6 +786787,36 @@ window.BENCHMARK_DATA = {
             "value": 77.6938259601593,
             "unit": "ns",
             "range": "± 0.6368109782421876"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b25c212632be38e44178780368fb7a95443dd27a",
+          "message": "Pipelined transfer and overlapped writes for disk-based replica sync (#2334)",
+          "timestamp": "2026-11-11T14:05:36-08:00",
+          "tree_id": "60b1fa60eb7496296fca83c4af5b3476d5df15d0",
+          "url": "https://github.com/microsoft/garnet/commit/b25c212632be38e44178780368fb7a95443dd27a"
+        },
+        "date": 1794434907213,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 45.863960470472065,
+            "unit": "ns",
+            "range": "± 0.46199718339551143"
           }
         ]
       }
