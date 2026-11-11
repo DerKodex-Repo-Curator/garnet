@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794435006349,
+  "lastUpdate": 1794435016815,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -789237,54 +789237,6 @@ window.BENCHMARK_DATA = {
             "username": "web-flow"
           },
           "distinct": true,
-          "id": "3369c07c7cbeddfdf0e153c080ae2f0ba43c5b86",
-          "message": "fix pfcount with missing key (#2270)",
-          "timestamp": "2026-10-21T10:29:00-07:00",
-          "tree_id": "fe4301f12c6f77e1b11268b430e2aef7e656269f",
-          "url": "https://github.com/microsoft/garnet/commit/3369c07c7cbeddfdf0e153c080ae2f0ba43c5b86"
-        },
-        "date": 1792604068713,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AAD)",
-            "value": 1616.1108271280925,
-            "unit": "ns",
-            "range": "± 10.124409751602865"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
-            "value": 1423.0431630061223,
-            "unit": "ns",
-            "range": "± 7.548214184183208"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
-            "value": 1463.8279233660016,
-            "unit": "ns",
-            "range": "± 21.787033360590147"
-          },
-          {
-            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
-            "value": 1480.772304534912,
-            "unit": "ns",
-            "range": "± 7.135156105842688"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "96085550+vazois@users.noreply.github.com",
-            "name": "Vasileios Zois",
-            "username": "vazois"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
           "id": "be6eb17df48b4e49fb09605398e52d429d9faa22",
           "message": "fix stack overflow in the Garnet server coming from Garnet's glob pattern matching logic (#2261)",
           "timestamp": "2026-10-21T10:53:46-07:00",
@@ -791621,6 +791573,54 @@ window.BENCHMARK_DATA = {
             "value": 940.5643569098579,
             "unit": "ns",
             "range": "± 18.95320895141604"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b25c212632be38e44178780368fb7a95443dd27a",
+          "message": "Pipelined transfer and overlapped writes for disk-based replica sync (#2334)",
+          "timestamp": "2026-11-11T14:05:36-08:00",
+          "tree_id": "60b1fa60eb7496296fca83c4af5b3476d5df15d0",
+          "url": "https://github.com/microsoft/garnet/commit/b25c212632be38e44178780368fb7a95443dd27a"
+        },
+        "date": 1794434984591,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AAD)",
+            "value": 979.8955663045248,
+            "unit": "ns",
+            "range": "± 13.341691194910128"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: ACL)",
+            "value": 864.4756023700421,
+            "unit": "ns",
+            "range": "± 8.216319701824391"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: AOF)",
+            "value": 871.6777801513672,
+            "unit": "ns",
+            "range": "± 9.086818518919502"
+          },
+          {
+            "name": "BDN.benchmark.Operations.BasicOperations.InlinePing(Params: None)",
+            "value": 926.1768023173014,
+            "unit": "ns",
+            "range": "± 12.062770298937162"
           }
         ]
       }
