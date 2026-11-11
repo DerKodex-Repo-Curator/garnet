@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794431355494,
+  "lastUpdate": 1794431374015,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -800033,90 +800033,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "96085550+vazois@users.noreply.github.com",
-            "name": "Vasileios Zois",
-            "username": "vazois"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "be6eb17df48b4e49fb09605398e52d429d9faa22",
-          "message": "fix stack overflow in the Garnet server coming from Garnet's glob pattern matching logic (#2261)",
-          "timestamp": "2026-10-21T10:53:46-07:00",
-          "tree_id": "319cdc3181c7d8148abe5e668c354220d6040499",
-          "url": "https://github.com/microsoft/garnet/commit/be6eb17df48b4e49fb09605398e52d429d9faa22"
-        },
-        "date": 1792605663827,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
-            "value": 304.5943430491856,
-            "unit": "ns",
-            "range": "± 2.4466163490252755"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
-            "value": 310.6231753031413,
-            "unit": "ns",
-            "range": "± 1.3735053321033588"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
-            "value": 286.60887400309247,
-            "unit": "ns",
-            "range": "± 2.631581824355106"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
-            "value": 279.9567154475621,
-            "unit": "ns",
-            "range": "± 1.562401667359876"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
-            "value": 323.43427658081055,
-            "unit": "ns",
-            "range": "± 1.7493204002912728"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
-            "value": 329.4530051095145,
-            "unit": "ns",
-            "range": "± 1.847907001264647"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
-            "value": 251.16859844752722,
-            "unit": "ns",
-            "range": "± 1.0744234912699058"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
-            "value": 168.4313388971182,
-            "unit": "ns",
-            "range": "± 0.6474721901221542"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
-            "value": 204.0470345815023,
-            "unit": "ns",
-            "range": "± 2.2808443510535494"
-          },
-          {
-            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
-            "value": 282.2528425852458,
-            "unit": "ns",
-            "range": "± 2.432174307749093"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "kmontrose@microsoft.com",
             "name": "kevin-montrose",
             "username": "kevin-montrose"
@@ -804227,6 +804143,90 @@ window.BENCHMARK_DATA = {
             "value": 300.9686800149771,
             "unit": "ns",
             "range": "± 4.621129142225217"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8e34c8cda3a45028e3b7c64478c045decb95536",
+          "message": "Build(deps): Bump the github-actions group with 3 updates (#2375)\n\nBumps the github-actions group with 3 updates: [actions/setup-dotnet](https://github.com/actions/setup-dotnet), [github/codeql-action/init](https://github.com/github/codeql-action) and [github/codeql-action/analyze](https://github.com/github/codeql-action).\n\n\nUpdates `actions/setup-dotnet` from 6.0.0 to 6.1.0\n- [Release notes](https://github.com/actions/setup-dotnet/releases)\n- [Commits](https://github.com/actions/setup-dotnet/compare/a98b56852c35b8e3190ac28c8c2271da59106c68...0f4a354dd5547a28c70b7853dbd95d5b67886e73)\n\nUpdates `github/codeql-action/init` from 4.39.1 to 4.39.3\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/9b3254085494b55a0f7c4c2b3d2d52cc712ce370...33d7b85da1a04171e211befe2c739303b9a4c066)\n\nUpdates `github/codeql-action/analyze` from 4.39.1 to 4.39.3\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/9b3254085494b55a0f7c4c2b3d2d52cc712ce370...33d7b85da1a04171e211befe2c739303b9a4c066)\n\n---\nupdated-dependencies:\n- dependency-name: actions/setup-dotnet\n  dependency-version: 6.1.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n  dependency-group: github-actions\n- dependency-name: github/codeql-action/init\n  dependency-version: 4.39.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n- dependency-name: github/codeql-action/analyze\n  dependency-version: 4.39.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: github-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-11T13:03:11-08:00",
+          "tree_id": "a2f3279a2306a050b7aa13f0aa2a7321f8779bad",
+          "url": "https://github.com/microsoft/garnet/commit/c8e34c8cda3a45028e3b7c64478c045decb95536"
+        },
+        "date": 1794431369149,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetNx(Params: None)",
+            "value": 136.87567527477557,
+            "unit": "ns",
+            "range": "± 1.1446141483887204"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetXx(Params: None)",
+            "value": 151.36471475873674,
+            "unit": "ns",
+            "range": "± 0.9774386703292832"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Increment(Params: None)",
+            "value": 132.5152839933123,
+            "unit": "ns",
+            "range": "± 1.8828959289547391"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Decrement(Params: None)",
+            "value": 134.577537985409,
+            "unit": "ns",
+            "range": "± 2.6812488789747912"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.IncrementBy(Params: None)",
+            "value": 179.40214474995932,
+            "unit": "ns",
+            "range": "± 2.898845652003235"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.DecrementBy(Params: None)",
+            "value": 158.88850529988608,
+            "unit": "ns",
+            "range": "± 2.2876663823471204"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetFound(Params: None)",
+            "value": 103.01402807235718,
+            "unit": "ns",
+            "range": "± 2.3530483920348324"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.GetNotFound(Params: None)",
+            "value": 76.43777132034302,
+            "unit": "ns",
+            "range": "± 1.5490723800858428"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.Set(Params: None)",
+            "value": 100.44556947854849,
+            "unit": "ns",
+            "range": "± 2.465866378172554"
+          },
+          {
+            "name": "BDN.benchmark.Network.RawStringOperations.SetEx(Params: None)",
+            "value": 145.1100730895996,
+            "unit": "ns",
+            "range": "± 1.7349538521931565"
           }
         ]
       }
