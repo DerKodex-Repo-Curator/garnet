@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794434959544,
+  "lastUpdate": 1794434969947,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -711493,54 +711493,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "kmontrose@microsoft.com",
-            "name": "kevin-montrose",
-            "username": "kevin-montrose"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "fac9eff84b6d0b6133fdb4cecb7c97c2058af830",
-          "message": "Fixes in Vector Set validation (#2276)\n\n* crashing test for gigantic Vector Set creation\n\n* fix by imposing a maximum EF\n\n* failing test for filtering over attributes which are malformed JSON\n\n* fix attribute extraction bug; remove a bunch of dead code that also had similar issues, we can redo it if we need it again\n\n* also limit M to a maximum effective value of 512",
-          "timestamp": "2026-10-21T14:49:28-04:00",
-          "tree_id": "834c4e26e3acb2f03501c20678964b2190d5ad7f",
-          "url": "https://github.com/microsoft/garnet/commit/fac9eff84b6d0b6133fdb4cecb7c97c2058af830"
-        },
-        "date": 1792608785979,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AAD)",
-            "value": 40503.84751383463,
-            "unit": "ns",
-            "range": "± 65.1498432382819"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
-            "value": 41130.69008382162,
-            "unit": "ns",
-            "range": "± 42.84313778359955"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
-            "value": 59636.11569824219,
-            "unit": "ns",
-            "range": "± 349.2718347445793"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
-            "value": 40899.29755510603,
-            "unit": "ns",
-            "range": "± 41.92507971297857"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "badrishc@microsoft.com",
             "name": "Badrish Chandramouli",
             "username": "badrishc"
@@ -713887,6 +713839,54 @@ window.BENCHMARK_DATA = {
             "value": 21758.927337646484,
             "unit": "ns",
             "range": "± 171.14508679481236"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "15467143+TedHartMS@users.noreply.github.com",
+            "name": "Ted Hart",
+            "username": "TedHartMS"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b25c212632be38e44178780368fb7a95443dd27a",
+          "message": "Pipelined transfer and overlapped writes for disk-based replica sync (#2334)",
+          "timestamp": "2026-11-11T14:05:36-08:00",
+          "tree_id": "60b1fa60eb7496296fca83c4af5b3476d5df15d0",
+          "url": "https://github.com/microsoft/garnet/commit/b25c212632be38e44178780368fb7a95443dd27a"
+        },
+        "date": 1794434943821,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AAD)",
+            "value": 33404.44024658203,
+            "unit": "ns",
+            "range": "± 252.48638722101336"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 33062.9816066197,
+            "unit": "ns",
+            "range": "± 101.5734738614497"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 47271.2159983317,
+            "unit": "ns",
+            "range": "± 100.49080400919438"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 32898.82141621908,
+            "unit": "ns",
+            "range": "± 61.71265951931478"
           }
         ]
       }
