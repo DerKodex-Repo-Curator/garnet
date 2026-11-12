@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794447817307,
+  "lastUpdate": 1794447832905,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -765215,54 +765215,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15467143+TedHartMS@users.noreply.github.com",
-            "name": "Ted Hart",
-            "username": "TedHartMS"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9fb3cbb795e3cfba12504d1c025a6cd4e3daec89",
-          "message": "Bump version to 2.2.4; combined RESP fixes: HINCRBY overflow, integer-parse protocol error, expired-key checks, large PEXPIRE, SET KEEPTTL (#2259)",
-          "timestamp": "2026-10-21T16:32:09-07:00",
-          "tree_id": "fe7678d6d9b1ad016c454f3b377eb8a5413f1bf2",
-          "url": "https://github.com/microsoft/garnet/commit/9fb3cbb795e3cfba12504d1c025a6cd4e3daec89"
-        },
-        "date": 1792625832005,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AAD)",
-            "value": 17854.796893780047,
-            "unit": "ns",
-            "range": "± 64.58388013368891"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
-            "value": 17617.046649639422,
-            "unit": "ns",
-            "range": "± 86.584291465973"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
-            "value": 17917.21365792411,
-            "unit": "ns",
-            "range": "± 126.68519742685584"
-          },
-          {
-            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
-            "value": 17776.84500558036,
-            "unit": "ns",
-            "range": "± 131.97084414645585"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "49699333+dependabot[bot]@users.noreply.github.com",
             "name": "dependabot[bot]",
             "username": "dependabot[bot]"
@@ -767609,6 +767561,54 @@ window.BENCHMARK_DATA = {
             "value": 12671.038491385323,
             "unit": "ns",
             "range": "± 77.1071861794849"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93c644f186edd60c83dbb9fc42820da339f64f2e",
+          "message": "fix: report longitude error in geohash assertion (#2361)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:37:06-08:00",
+          "tree_id": "ee226d390461287673f281b599661e43eded31f4",
+          "url": "https://github.com/microsoft/garnet/commit/93c644f186edd60c83dbb9fc42820da339f64f2e"
+        },
+        "date": 1794447808059,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AAD)",
+            "value": 14528.387996128627,
+            "unit": "ns",
+            "range": "± 114.47614800812107"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: ACL)",
+            "value": 14648.197283063617,
+            "unit": "ns",
+            "range": "± 94.76703774291465"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: AOF)",
+            "value": 15007.84122467041,
+            "unit": "ns",
+            "range": "± 532.9552374314686"
+          },
+          {
+            "name": "BDN.benchmark.Operations.PubSubOperations.Publish(Params: None)",
+            "value": 14587.613728841146,
+            "unit": "ns",
+            "range": "± 105.17707507769687"
           }
         ]
       }
