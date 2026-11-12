@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794447772936,
+  "lastUpdate": 1794447783740,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -786825,54 +786825,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "badrishc@microsoft.com",
-            "name": "Badrish Chandramouli",
-            "username": "badrishc"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9f96808fb29b03fcbe761f4e089cbc241d5ace58",
-          "message": "Improve network connection handling (#2268)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
-          "timestamp": "2026-10-21T15:00:14-07:00",
-          "tree_id": "09663a273d60659e71a3f4a7dfa76713cfa6bfc5",
-          "url": "https://github.com/microsoft/garnet/commit/9f96808fb29b03fcbe761f4e089cbc241d5ace58"
-        },
-        "date": 1792620244728,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AAD)",
-            "value": 21559.896850585938,
-            "unit": "ns",
-            "range": "± 485.9748622945688"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
-            "value": 21755.93282063802,
-            "unit": "ns",
-            "range": "± 384.1687588343953"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
-            "value": 31749.346923828125,
-            "unit": "ns",
-            "range": "± 570.9148085687223"
-          },
-          {
-            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
-            "value": 21857.075805664062,
-            "unit": "ns",
-            "range": "± 340.54941764085237"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -789219,6 +789171,54 @@ window.BENCHMARK_DATA = {
             "value": 31356.487567608172,
             "unit": "ns",
             "range": "± 95.59524461531686"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93c644f186edd60c83dbb9fc42820da339f64f2e",
+          "message": "fix: report longitude error in geohash assertion (#2361)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:37:06-08:00",
+          "tree_id": "ee226d390461287673f281b599661e43eded31f4",
+          "url": "https://github.com/microsoft/garnet/commit/93c644f186edd60c83dbb9fc42820da339f64f2e"
+        },
+        "date": 1794447737069,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AAD)",
+            "value": 38197.32218424479,
+            "unit": "ns",
+            "range": "± 493.18161304580667"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: ACL)",
+            "value": 37779.86368815104,
+            "unit": "ns",
+            "range": "± 268.6418103660989"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: AOF)",
+            "value": 55164.46085611979,
+            "unit": "ns",
+            "range": "± 750.2698549306157"
+          },
+          {
+            "name": "BDN.benchmark.Operations.ObjectOperations.LPushPop(Params: None)",
+            "value": 37579.57275390625,
+            "unit": "ns",
+            "range": "± 394.31321598970777"
           }
         ]
       }
