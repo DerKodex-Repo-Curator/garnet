@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794447540580,
+  "lastUpdate": 1794447553105,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -943759,390 +943759,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "badrishc@microsoft.com",
-            "name": "Badrish Chandramouli",
-            "username": "badrishc"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9f96808fb29b03fcbe761f4e089cbc241d5ace58",
-          "message": "Improve network connection handling (#2268)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
-          "timestamp": "2026-10-21T15:00:14-07:00",
-          "tree_id": "09663a273d60659e71a3f4a7dfa76713cfa6bfc5",
-          "url": "https://github.com/microsoft/garnet/commit/9f96808fb29b03fcbe761f4e089cbc241d5ace58"
-        },
-        "date": 1792621816449,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: AAD)",
-            "value": 24097.383270263672,
-            "unit": "ns",
-            "range": "± 524.6135541278326"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: AAD)",
-            "value": 12042.769731794086,
-            "unit": "ns",
-            "range": "± 151.35843479141136"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: AAD)",
-            "value": 10665.155264047477,
-            "unit": "ns",
-            "range": "± 125.473363475832"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: AAD)",
-            "value": 14681.790161132812,
-            "unit": "ns",
-            "range": "± 205.7532007172083"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: AAD)",
-            "value": 14858.116760253906,
-            "unit": "ns",
-            "range": "± 245.1555842444925"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: AAD)",
-            "value": 29264.161635890152,
-            "unit": "ns",
-            "range": "± 925.5188518863071"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: AAD)",
-            "value": 11033.41057187035,
-            "unit": "ns",
-            "range": "± 261.2291905953325"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: AAD)",
-            "value": 8313.525155874398,
-            "unit": "ns",
-            "range": "± 82.32864416597242"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: AAD)",
-            "value": 12510.944620768229,
-            "unit": "ns",
-            "range": "± 220.26830763011267"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: AAD)",
-            "value": 13075.823465983072,
-            "unit": "ns",
-            "range": "± 255.80301853275358"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: AAD)",
-            "value": 15023.626817975726,
-            "unit": "ns",
-            "range": "± 236.05537867379664"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: AAD)",
-            "value": 2027.1646772112165,
-            "unit": "ns",
-            "range": "± 33.83910138800807"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: AAD)",
-            "value": 10208.809368426982,
-            "unit": "ns",
-            "range": "± 92.2972416793586"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: AAD)",
-            "value": 11514.688814603365,
-            "unit": "ns",
-            "range": "± 123.49114144621738"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: AAD)",
-            "value": 10763.199439415564,
-            "unit": "ns",
-            "range": "± 155.27690130537158"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: ACL)",
-            "value": 23772.51205444336,
-            "unit": "ns",
-            "range": "± 444.019901994916"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: ACL)",
-            "value": 3670.600757598877,
-            "unit": "ns",
-            "range": "± 120.58217936771423"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: ACL)",
-            "value": 1851.9688606262207,
-            "unit": "ns",
-            "range": "± 26.593688381552752"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: ACL)",
-            "value": 3428.1333171960077,
-            "unit": "ns",
-            "range": "± 160.43045162061128"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: ACL)",
-            "value": 3879.3343135288783,
-            "unit": "ns",
-            "range": "± 48.396044869549016"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: ACL)",
-            "value": 4138.538964589437,
-            "unit": "ns",
-            "range": "± 104.03039913567314"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: ACL)",
-            "value": 1591.0477365766253,
-            "unit": "ns",
-            "range": "± 21.64098059476828"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: ACL)",
-            "value": 1615.825538635254,
-            "unit": "ns",
-            "range": "± 24.496855436859867"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: ACL)",
-            "value": 2128.503087361654,
-            "unit": "ns",
-            "range": "± 12.493656975206205"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: ACL)",
-            "value": 2784.874643598284,
-            "unit": "ns",
-            "range": "± 32.332883011650246"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: ACL)",
-            "value": 3530.7276010513306,
-            "unit": "ns",
-            "range": "± 67.60482918957271"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: ACL)",
-            "value": 2065.7743998936244,
-            "unit": "ns",
-            "range": "± 20.083202695950167"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: ACL)",
-            "value": 2170.413116172508,
-            "unit": "ns",
-            "range": "± 90.64510165557161"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: ACL)",
-            "value": 3673.5439777374268,
-            "unit": "ns",
-            "range": "± 90.48151923018894"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: ACL)",
-            "value": 1691.0409733400506,
-            "unit": "ns",
-            "range": "± 74.72693229530967"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: AOF)",
-            "value": 32042.516257546165,
-            "unit": "ns",
-            "range": "± 780.9342063589493"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: AOF)",
-            "value": 11121.59948348999,
-            "unit": "ns",
-            "range": "± 144.098689068354"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: AOF)",
-            "value": 11556.316833496094,
-            "unit": "ns",
-            "range": "± 203.26294897200685"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: AOF)",
-            "value": 15607.036641438803,
-            "unit": "ns",
-            "range": "± 179.20811294074036"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: AOF)",
-            "value": 20767.10954145952,
-            "unit": "ns",
-            "range": "± 651.4415177730746"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: AOF)",
-            "value": 36883.14102836277,
-            "unit": "ns",
-            "range": "± 912.3591847348164"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: AOF)",
-            "value": 10835.4323387146,
-            "unit": "ns",
-            "range": "± 206.03625756329947"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: AOF)",
-            "value": 7862.364087785993,
-            "unit": "ns",
-            "range": "± 107.19287953880387"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: AOF)",
-            "value": 13312.585503714425,
-            "unit": "ns",
-            "range": "± 373.3337636902995"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: AOF)",
-            "value": 18916.864984685726,
-            "unit": "ns",
-            "range": "± 388.29323696451564"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: AOF)",
-            "value": 16199.720275878906,
-            "unit": "ns",
-            "range": "± 639.2873241720847"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: AOF)",
-            "value": 2078.0716860735856,
-            "unit": "ns",
-            "range": "± 57.560109885368746"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: AOF)",
-            "value": 14243.375572791467,
-            "unit": "ns",
-            "range": "± 224.6335153128712"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: AOF)",
-            "value": 11391.526151958265,
-            "unit": "ns",
-            "range": "± 241.98530025997925"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: AOF)",
-            "value": 11170.486450195312,
-            "unit": "ns",
-            "range": "± 176.49225519791233"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: None)",
-            "value": 23709.34568132673,
-            "unit": "ns",
-            "range": "± 657.6634598565415"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: None)",
-            "value": 11850.433592362837,
-            "unit": "ns",
-            "range": "± 443.6617711343592"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: None)",
-            "value": 10701.91754427823,
-            "unit": "ns",
-            "range": "± 252.50109620973998"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: None)",
-            "value": 14614.532797677177,
-            "unit": "ns",
-            "range": "± 186.38125077747668"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: None)",
-            "value": 15653.902735854641,
-            "unit": "ns",
-            "range": "± 1126.5281856765491"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: None)",
-            "value": 32558.813232421875,
-            "unit": "ns",
-            "range": "± 691.5913919364499"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: None)",
-            "value": 11693.134532255284,
-            "unit": "ns",
-            "range": "± 224.3511643293857"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: None)",
-            "value": 8496.615091959635,
-            "unit": "ns",
-            "range": "± 149.9670346838419"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: None)",
-            "value": 13425.96263885498,
-            "unit": "ns",
-            "range": "± 248.33083250732523"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: None)",
-            "value": 13427.786350250244,
-            "unit": "ns",
-            "range": "± 261.8546265629308"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: None)",
-            "value": 14850.274505615234,
-            "unit": "ns",
-            "range": "± 321.7934850129723"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: None)",
-            "value": 2083.816826052782,
-            "unit": "ns",
-            "range": "± 73.94831103506277"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: None)",
-            "value": 10311.854298909506,
-            "unit": "ns",
-            "range": "± 261.35594874952443"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: None)",
-            "value": 11467.789786202567,
-            "unit": "ns",
-            "range": "± 268.06360085168626"
-          },
-          {
-            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: None)",
-            "value": 11043.934279221754,
-            "unit": "ns",
-            "range": "± 143.9767050958127"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -962953,6 +962569,390 @@ window.BENCHMARK_DATA = {
             "value": 16515.268961588543,
             "unit": "ns",
             "range": "± 105.93850987034497"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253",
+          "message": "fix: check replica tail address in sharded log test (#2360)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:13:41-08:00",
+          "tree_id": "88c0da733d32263d1f0ff3dd94403396bd0268be",
+          "url": "https://github.com/microsoft/garnet/commit/c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253"
+        },
+        "date": 1794447529067,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: AAD)",
+            "value": 46556.54744466146,
+            "unit": "ns",
+            "range": "± 240.9992585127443"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: AAD)",
+            "value": 22495.919189453125,
+            "unit": "ns",
+            "range": "± 104.24826839394132"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: AAD)",
+            "value": 19975.390272874098,
+            "unit": "ns",
+            "range": "± 68.30789066358571"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: AAD)",
+            "value": 28679.268391927082,
+            "unit": "ns",
+            "range": "± 150.53053096279646"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: AAD)",
+            "value": 30178.382161458332,
+            "unit": "ns",
+            "range": "± 188.5259707132331"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: AAD)",
+            "value": 57029.65829031808,
+            "unit": "ns",
+            "range": "± 163.1289506692026"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: AAD)",
+            "value": 21583.82792154948,
+            "unit": "ns",
+            "range": "± 163.60320390567824"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: AAD)",
+            "value": 14583.324759347099,
+            "unit": "ns",
+            "range": "± 85.28988726930083"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: AAD)",
+            "value": 24037.82419057993,
+            "unit": "ns",
+            "range": "± 139.53968327282544"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: AAD)",
+            "value": 25381.561075846355,
+            "unit": "ns",
+            "range": "± 116.83869044196885"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: AAD)",
+            "value": 32098.594767252605,
+            "unit": "ns",
+            "range": "± 327.6792461323477"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: AAD)",
+            "value": 3424.158259800502,
+            "unit": "ns",
+            "range": "± 21.07286493966179"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: AAD)",
+            "value": 22627.532145182293,
+            "unit": "ns",
+            "range": "± 158.64182329967625"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: AAD)",
+            "value": 21272.313145228796,
+            "unit": "ns",
+            "range": "± 119.78680410224196"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: AAD)",
+            "value": 21505.284372965496,
+            "unit": "ns",
+            "range": "± 144.48655862436587"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: ACL)",
+            "value": 48626.65318080357,
+            "unit": "ns",
+            "range": "± 332.2619300604095"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: ACL)",
+            "value": 8534.066009521484,
+            "unit": "ns",
+            "range": "± 543.5414330104398"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: ACL)",
+            "value": 3758.322525024414,
+            "unit": "ns",
+            "range": "± 26.326942334583094"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: ACL)",
+            "value": 7779.406178792317,
+            "unit": "ns",
+            "range": "± 69.7843013237127"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: ACL)",
+            "value": 8627.401529947916,
+            "unit": "ns",
+            "range": "± 87.51396310971582"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: ACL)",
+            "value": 9958.943583170572,
+            "unit": "ns",
+            "range": "± 75.3811752151882"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: ACL)",
+            "value": 3036.5403747558594,
+            "unit": "ns",
+            "range": "± 19.842797618267408"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: ACL)",
+            "value": 3021.580723353795,
+            "unit": "ns",
+            "range": "± 20.320274330362274"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: ACL)",
+            "value": 4579.8394775390625,
+            "unit": "ns",
+            "range": "± 36.1557866348663"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: ACL)",
+            "value": 5960.5747477213545,
+            "unit": "ns",
+            "range": "± 40.74980969424291"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: ACL)",
+            "value": 7027.998148600261,
+            "unit": "ns",
+            "range": "± 56.371139191581335"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: ACL)",
+            "value": 3327.1739705403647,
+            "unit": "ns",
+            "range": "± 21.941488606844423"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: ACL)",
+            "value": 4468.8486735026045,
+            "unit": "ns",
+            "range": "± 8.329684617397815"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: ACL)",
+            "value": 7873.134319598858,
+            "unit": "ns",
+            "range": "± 48.2325899295732"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: ACL)",
+            "value": 3135.5699666341147,
+            "unit": "ns",
+            "range": "± 22.508450762929893"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: AOF)",
+            "value": 81158.9453125,
+            "unit": "ns",
+            "range": "± 420.7795512583138"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: AOF)",
+            "value": 22109.500935872395,
+            "unit": "ns",
+            "range": "± 96.64384448920686"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: AOF)",
+            "value": 19285.953013102215,
+            "unit": "ns",
+            "range": "± 35.898215475421594"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: AOF)",
+            "value": 29042.04345703125,
+            "unit": "ns",
+            "range": "± 304.8723467706882"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: AOF)",
+            "value": 42457.73503230168,
+            "unit": "ns",
+            "range": "± 194.80022794815002"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: AOF)",
+            "value": 68395.15005258414,
+            "unit": "ns",
+            "range": "± 398.16308146780426"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: AOF)",
+            "value": 21635.079142252605,
+            "unit": "ns",
+            "range": "± 165.23074041519894"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: AOF)",
+            "value": 14716.139424641928,
+            "unit": "ns",
+            "range": "± 96.61862332792558"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: AOF)",
+            "value": 24326.717936197918,
+            "unit": "ns",
+            "range": "± 99.98040896433714"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: AOF)",
+            "value": 37445.804443359375,
+            "unit": "ns",
+            "range": "± 286.57638800700903"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: AOF)",
+            "value": 31308.004056490383,
+            "unit": "ns",
+            "range": "± 81.93958517978653"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: AOF)",
+            "value": 3391.531778971354,
+            "unit": "ns",
+            "range": "± 18.700368028987892"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: AOF)",
+            "value": 31013.513590494793,
+            "unit": "ns",
+            "range": "± 288.1343053478119"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: AOF)",
+            "value": 22094.27446637835,
+            "unit": "ns",
+            "range": "± 135.32315316409748"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: AOF)",
+            "value": 21854.334920247395,
+            "unit": "ns",
+            "range": "± 153.88852700528258"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetDel(Params: None)",
+            "value": 48992.31506347656,
+            "unit": "ns",
+            "range": "± 366.67414118726794"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HExists(Params: None)",
+            "value": 28036.035810198104,
+            "unit": "ns",
+            "range": "± 84.47975940809937"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGet(Params: None)",
+            "value": 20003.83488581731,
+            "unit": "ns",
+            "range": "± 55.301189890795044"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HGetAll(Params: None)",
+            "value": 28696.0688273112,
+            "unit": "ns",
+            "range": "± 22.034851782715435"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrby(Params: None)",
+            "value": 31141.593715122766,
+            "unit": "ns",
+            "range": "± 211.68493194373167"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HIncrbyFloat(Params: None)",
+            "value": 57201.21887207031,
+            "unit": "ns",
+            "range": "± 386.4583776277449"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HKeys(Params: None)",
+            "value": 22294.483337402344,
+            "unit": "ns",
+            "range": "± 94.20309831135167"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HLen(Params: None)",
+            "value": 14254.914855957031,
+            "unit": "ns",
+            "range": "± 77.64125947726093"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMGet(Params: None)",
+            "value": 23692.27839878627,
+            "unit": "ns",
+            "range": "± 100.80862761151555"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HMSet(Params: None)",
+            "value": 24857.90262858073,
+            "unit": "ns",
+            "range": "± 138.39878287411412"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HRandField(Params: None)",
+            "value": 30450.451878138952,
+            "unit": "ns",
+            "range": "± 322.8910919628868"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HScan(Params: None)",
+            "value": 3362.8017698015487,
+            "unit": "ns",
+            "range": "± 21.71390126021481"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HSetNx(Params: None)",
+            "value": 21437.222943987166,
+            "unit": "ns",
+            "range": "± 105.37566329510612"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HStrLen(Params: None)",
+            "value": 22090.325724283855,
+            "unit": "ns",
+            "range": "± 116.21616482550768"
+          },
+          {
+            "name": "BDN.benchmark.Operations.HashObjectOperations.HVals(Params: None)",
+            "value": 21682.029215494793,
+            "unit": "ns",
+            "range": "± 124.33063396910353"
           }
         ]
       }
