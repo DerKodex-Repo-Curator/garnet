@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794446327050,
+  "lastUpdate": 1794446337309,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -728299,54 +728299,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "badrishc@microsoft.com",
-            "name": "Badrish Chandramouli",
-            "username": "badrishc"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9f96808fb29b03fcbe761f4e089cbc241d5ace58",
-          "message": "Improve network connection handling (#2268)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
-          "timestamp": "2026-10-21T15:00:14-07:00",
-          "tree_id": "09663a273d60659e71a3f4a7dfa76713cfa6bfc5",
-          "url": "https://github.com/microsoft/garnet/commit/9f96808fb29b03fcbe761f4e089cbc241d5ace58"
-        },
-        "date": 1792620425660,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AAD)",
-            "value": 88715.86853027344,
-            "unit": "ns",
-            "range": "± 1889.201088511208"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: ACL)",
-            "value": 38732.89408365885,
-            "unit": "ns",
-            "range": "± 343.9697113217095"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AOF)",
-            "value": 120835.92992322198,
-            "unit": "ns",
-            "range": "± 3535.3314537996985"
-          },
-          {
-            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: None)",
-            "value": 81894.38419785611,
-            "unit": "ns",
-            "range": "± 2946.823232607564"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -730693,6 +730645,54 @@ window.BENCHMARK_DATA = {
             "value": 80613.60595703125,
             "unit": "ns",
             "range": "± 916.8191893003564"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253",
+          "message": "fix: check replica tail address in sharded log test (#2360)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:13:41-08:00",
+          "tree_id": "88c0da733d32263d1f0ff3dd94403396bd0268be",
+          "url": "https://github.com/microsoft/garnet/commit/c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253"
+        },
+        "date": 1794446317705,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AAD)",
+            "value": 131955.58919270834,
+            "unit": "ns",
+            "range": "± 737.5748445381529"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: ACL)",
+            "value": 62926.45827073317,
+            "unit": "ns",
+            "range": "± 257.3238942527479"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: AOF)",
+            "value": 168743.90299479166,
+            "unit": "ns",
+            "range": "± 2236.0140525359193"
+          },
+          {
+            "name": "BDN.benchmark.Operations.TxnOperations.MultiExec(Params: None)",
+            "value": 124800.92610677083,
+            "unit": "ns",
+            "range": "± 1353.1088262183098"
           }
         ]
       }
