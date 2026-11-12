@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794447627191,
+  "lastUpdate": 1794447638146,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -755311,36 +755311,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "15467143+TedHartMS@users.noreply.github.com",
-            "name": "Ted Hart",
-            "username": "TedHartMS"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9fb3cbb795e3cfba12504d1c025a6cd4e3daec89",
-          "message": "Bump version to 2.2.4; combined RESP fixes: HINCRBY overflow, integer-parse protocol error, expired-key checks, large PEXPIRE, SET KEEPTTL (#2259)",
-          "timestamp": "2026-10-21T16:32:09-07:00",
-          "tree_id": "fe7678d6d9b1ad016c454f3b377eb8a5413f1bf2",
-          "url": "https://github.com/microsoft/garnet/commit/9fb3cbb795e3cfba12504d1c025a6cd4e3daec89"
-        },
-        "date": 1792625722962,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
-            "value": 101.06076172419957,
-            "unit": "ns",
-            "range": "± 0.08771015661246893"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "49699333+dependabot[bot]@users.noreply.github.com",
             "name": "dependabot[bot]",
             "username": "dependabot[bot]"
@@ -756805,6 +756775,36 @@ window.BENCHMARK_DATA = {
             "value": 47.45470688663996,
             "unit": "ns",
             "range": "± 0.12306913962047876"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "93c644f186edd60c83dbb9fc42820da339f64f2e",
+          "message": "fix: report longitude error in geohash assertion (#2361)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:37:06-08:00",
+          "tree_id": "ee226d390461287673f281b599661e43eded31f4",
+          "url": "https://github.com/microsoft/garnet/commit/93c644f186edd60c83dbb9fc42820da339f64f2e"
+        },
+        "date": 1794447616738,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 97.70779843727748,
+            "unit": "ns",
+            "range": "± 0.8796108475787678"
           }
         ]
       }
