@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794437115903,
+  "lastUpdate": 1794446161027,
   "repoUrl": "https://github.com/microsoft/garnet",
   "entries": {
     "Benchmark": [],
@@ -755311,36 +755311,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "email": "badrishc@microsoft.com",
-            "name": "Badrish Chandramouli",
-            "username": "badrishc"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9f96808fb29b03fcbe761f4e089cbc241d5ace58",
-          "message": "Improve network connection handling (#2268)\n\nCo-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
-          "timestamp": "2026-10-21T15:00:14-07:00",
-          "tree_id": "09663a273d60659e71a3f4a7dfa76713cfa6bfc5",
-          "url": "https://github.com/microsoft/garnet/commit/9f96808fb29b03fcbe761f4e089cbc241d5ace58"
-        },
-        "date": 1792620160241,
-        "tool": "benchmarkdotnet",
-        "benches": [
-          {
-            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
-            "value": 80.88242418368658,
-            "unit": "ns",
-            "range": "± 0.7986285957797621"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "email": "15467143+TedHartMS@users.noreply.github.com",
             "name": "Ted Hart",
             "username": "TedHartMS"
@@ -756805,6 +756775,36 @@ window.BENCHMARK_DATA = {
             "value": 98.15710492644992,
             "unit": "ns",
             "range": "± 0.9550959581228932"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "unsafeptr@gmail.com",
+            "name": "Nikolay Zdravkov",
+            "username": "unsafePtr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253",
+          "message": "fix: check replica tail address in sharded log test (#2360)\n\nCo-authored-by: Vasileios Zois <96085550+vazois@users.noreply.github.com>",
+          "timestamp": "2026-11-11T17:13:41-08:00",
+          "tree_id": "88c0da733d32263d1f0ff3dd94403396bd0268be",
+          "url": "https://github.com/microsoft/garnet/commit/c6c0cbb17831c0941aed29d0ce6e7c0ec5c09253"
+        },
+        "date": 1794446149853,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "BDN.benchmark.Network.BasicOperations.InlinePing(Params: None)",
+            "value": 47.45470688663996,
+            "unit": "ns",
+            "range": "± 0.12306913962047876"
           }
         ]
       }
